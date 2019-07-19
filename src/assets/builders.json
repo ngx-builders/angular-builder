@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Custom Webpack Builder",
+    "description": "Extended @angular-devkit/build-angular:browser builder that allows to specify additional webpack configuration (on top of the existing under the hood) and index.html tranformations. The builder will run the same build as @angular-devkit/build-angular:browser does with extra parameters that are specified in the provided webpack configuration. It will also run transformation on index.html if specified.<br><h1>Builders</h1><br><ul><li>@angular-builders/custom-webpack:browser</li><li>@angular-builders/custom-webpack:server</li><li>@angular-builders/custom-webpack:karma</li><li>@angular-builders/custom-webpack:dev-serve</li></ul>",
+    "repository": "https://github.com/just-jeb/angular-builders/tree/master/packages/custom-webpack"
+  },
+  {
+    "name": "Jest Builder",
+    "description": "<ul><li>Allows running ng test with Jest instead of Karma & Jasmine.</li><li>The builder comes to provide zero configuration setup for Jest while keeping the workspace clear of boilerplate code.</li></ul>",
+    "repository": "https://github.com/just-jeb/angular-builders/blob/master/packages/jest"
+  },
+  {
+    "name": "Ngx Build Plus",
+    "description": "Extend the Angular CLI's default build behavior without ejecting:<br><ul><li>Extend the default behavior by providing a partial config that just contains your additional settings</li><li>Alternative: Extend the default behavior by providing a custom function</li><li>Optional: Build a single bundle (e. g. for Angular Elements)</li><li>Inherits from the default builder, hence you have the same options</li><li>Simple to use</li><li>No eject needed</li></ul>",
+    "repository": "https://github.com/manfredsteyer/ngx-build-plus"
+  },
+  {
+    "name": "ngx-gh",
+    "description": "Deploy your Angular app to GitHub pages directly from the Angular CLI! ",
+    "repository": "https://github.com/mgechev/ngx-gh"
+  },
+  {
+    "name": "ng-deploy-azure",
+    "description": "Deploy Angular apps to Azure using the Angular CLI",
+    "repository": "https://github.com/Azure/ng-deploy-azure"
+  }
+]

@@ -1,0 +1,9 @@
+<h1>Custom Builders</h1>
+<accordion>
+  <accordion-group *ngFor="let builder of builders$ | async" [heading]="builder.name" isOpen="true">
+  <div [innerHTML]="builder.description"></div>
+  <br>
+  <a [href]="builder.repository" target="_blank">Repository</a>
+  </accordion-group>
+</accordion>
+
