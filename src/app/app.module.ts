@@ -18,12 +18,14 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { ReferencesComponent } from './references/references.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    MainNavComponent
+    MainNavComponent,
+    ReferencesComponent
   ],
   imports: [
     BrowserModule,
