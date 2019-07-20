@@ -15,3 +15,17 @@
   top: 0;
   z-index: 1;
 }
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.github-button, .github-button:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.github-icon{
+  height: 25px;
+}
