@@ -23,5 +23,15 @@
     "name": "ng-deploy-azure",
     "description": "Deploy Angular apps to Azure using the Angular CLI",
     "repository": "https://github.com/Azure/ng-deploy-azure"
+  },
+  {
+    "name": "@angular/fire:deploy",
+    "description": "Deploy your application on Firebase Hosting<br><ul><li>add @angular/fire to your project</li><li>ng run [ANGULAR_PROJECT_NAME]:deploy to deploy</li></ul>",
+    "repository": "https://github.com/angular/angularfire2/blob/master/docs/deploy/getting-started.md"
+  },
+  {
+    "name": "Bazel Build",
+    "description": "Bazel is an open-source build and test tool similar to Make, Maven, and Gradle. It uses a human-readable, high-level build language. Bazel supports projects in multiple languages and builds outputs for multiple platforms. Bazel supports large codebases across multiple repositories, and large numbers of users.",
+    "repository": "https://github.com/bazelbuild/bazel"
   }
 ]
