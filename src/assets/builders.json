@@ -26,7 +26,7 @@
   },
   {
     "name": "@angular/fire:deploy",
-    "description": "Deploy your application on Firebase Hosting<br><ul><li>add @angular/fire to your project</li><li>ng run [ANGULAR_PROJECT_NAME]:deploy to deploy</li></ul>",
+    "description": "Deploy your application on Firebase Hosting<br><ul><li>ng add @angular/fire to your project</li><li>ng run [ANGULAR_PROJECT_NAME]:deploy to deploy</li></ul>",
     "repository": "https://github.com/angular/angularfire2/blob/master/docs/deploy/getting-started.md"
   },
   {
