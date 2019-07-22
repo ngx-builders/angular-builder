@@ -19,6 +19,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { ReferencesComponent } from './references/references.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { ReferencesComponent } from './references/references.component';
     MatSidenavModule,
     MatListModule,
     FontAwesomeModule,
-    AccordionModule
+    AccordionModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     { provide: AccordionConfig, useValue: { closeOthers: false } },
