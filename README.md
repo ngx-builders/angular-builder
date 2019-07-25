@@ -1,5 +1,5 @@
 # Angular Builders
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
 ![Website Screenshot](screenshot.png)
 
@@ -39,6 +39,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://santoshyadavblog.com"><img src="https://avatars3.githubusercontent.com/u/11923975?v=4" width="100px;" alt="Santosh Yadav"/><br /><sub><b>Santosh Yadav</b></sub></a><br /><a href="https://github.com/Santosh Yadav/angular-builder/commits?author=santoshyadav198613" title="Code">💻</a> <a href="#content-santoshyadav198613" title="Content">🖋</a> <a href="#design-santoshyadav198613" title="Design">🎨</a> <a href="https://github.com/Santosh Yadav/angular-builder/commits?author=santoshyadav198613" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.youtube.com/c/NitishKumarSingh"><img src="https://avatars2.githubusercontent.com/u/15886737?v=4" width="100px;" alt="Nitish Kumar Singh"/><br /><sub><b>Nitish Kumar Singh</b></sub></a><br /><a href="https://github.com/Santosh Yadav/angular-builder/commits?author=nitishk72" title="Code">💻</a> <a href="#design-nitishk72" title="Design">🎨</a></td>
+  </tr>
+</table>
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
