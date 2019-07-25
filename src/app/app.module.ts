@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AccordionModule, AccordionConfig } from 'ngx-bootstrap/accordion';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -43,7 +42,6 @@ import { environment } from '../environments/environment';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    FontAwesomeModule,
     AccordionModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
