@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { AccordionModule, AccordionConfig } from 'ngx-bootstrap/accordion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
 import { ReferencesComponent } from './references/references.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -42,12 +42,10 @@ import { environment } from '../environments/environment';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    AccordionModule,
+    MatExpansionModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [
-    { provide: AccordionConfig, useValue: { closeOthers: false } },
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
