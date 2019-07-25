@@ -29,3 +29,8 @@
 .github-icon{
   height: 25px;
 }
+
+.container {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}

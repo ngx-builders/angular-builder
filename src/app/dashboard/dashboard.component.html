@@ -1,9 +1,15 @@
 <h1 class="heading">Custom Builders</h1>
-<accordion>
-  <accordion-group *ngFor="let builder of builders$ | async" [heading]="builder.name" isOpen="true">
-    <div [innerHTML]="builder.description"></div>
-    <br>
-    <a mat-stroked-button [href]="builder.repository" [title]="builder.repository" target="_blank">Repository</a>
-  </accordion-group>
-</accordion>
-
+<ng-container *ngIf="builders$ | async as builders">
+  <mat-accordion multi="true">
+    <mat-expansion-panel expanded="true" *ngFor="let builder of builders">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{builder.name}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div [innerHTML]="builder.description"></div>
+      <br>
+      <a mat-stroked-button [href]="builder.repository" [title]="builder.repository" target="_blank">Repository</a>
+    </mat-expansion-panel>
+  </mat-accordion>
+</ng-container>
