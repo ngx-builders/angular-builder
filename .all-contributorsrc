@@ -1,0 +1,37 @@
+{
+  "projectName": "angular-builder",
+  "projectOwner": "Santosh Yadav",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "santoshyadav198613",
+      "name": "Santosh Yadav",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11923975?v=4",
+      "profile": "http://santoshyadavblog.com",
+      "contributions": [
+        "code",
+        "content",
+        "design",
+        "doc"
+      ]
+    },
+    {
+      "login": "nitishk72",
+      "name": "Nitish Kumar Singh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15886737?v=4",
+      "profile": "https://www.youtube.com/c/NitishKumarSingh",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
