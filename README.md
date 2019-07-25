@@ -1,4 +1,5 @@
 # Angular Builders
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 
 ![Website Screenshot](screenshot.png)
 
@@ -30,3 +31,17 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Please, feel free to open an [issue](https://github.com/santoshyadav198613/angular-builder/issues)
 or submit a [pull request](https://github.com/santoshyadav198613/angular-builder/pulls) to make this project better for everyone!
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
