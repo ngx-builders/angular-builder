@@ -1,1 +1,19 @@
-<p>references works!</p>
+<h1 class="heading">Builder Resources</h1>
+<ng-container *ngIf="references$ | async as references">
+  <!-- <mat-accordion multi="true">
+    <mat-expansion-panel expanded="true" *ngFor="let reference of references.resources">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{reference.name}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <a [href]="reference.link" [title]="reference.link" target="_blank">{{reference.description}}</a>
+    </mat-expansion-panel>
+  </mat-accordion> -->
+
+  <mat-list>
+    <mat-list-item *ngFor="let reference of references.resources">
+        <a [href]="reference.link" [title]="reference.link" target="_blank">{{reference.name}}</a>
+    </mat-list-item>
+  </mat-list>
+</ng-container>

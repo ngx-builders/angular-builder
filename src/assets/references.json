@@ -1,0 +1,25 @@
+{
+  "resources": [
+    {
+      "name": "Angular CLI Builder",
+      "description": "Official documentation for Angular Builders.",
+      "link": "https://angular.io/guide/cli-builder"
+    },
+    {
+      "name": "Sample Builder GitHub Repo",
+      "description": "This repository contains the sample code to the builders.",
+      "link": "https://github.com/mgechev/cli-builders-demo"
+    },
+    {
+      "name": "Introducing CLI Builders",
+      "description": "Blog on CLI builders.",
+      "link": "https://blog.angular.io/introducing-cli-builders-d012d4489f1b"
+    },
+    {
+      "name": "Builders Demystified v2",
+      "description": "Blog on CLI builders.",
+      "link": "https://blog.angularindepth.com/angular-cli-under-the-hood-builders-demystified-v2-e73ee0f2d811"
+    }
+  ],
+  "blogs": []
+}
