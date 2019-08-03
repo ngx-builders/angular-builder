@@ -20,6 +20,7 @@ import { ReferencesComponent } from './references/references.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { SearchBarComponent } from './Utils/components/search-bar/search-bar.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     AppComponent,
     DashboardComponent,
     MainNavComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,

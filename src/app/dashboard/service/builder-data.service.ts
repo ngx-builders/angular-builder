@@ -7,7 +7,7 @@ import { IBuilderData } from '../ibuilderdata';
 })
 export class BuilderDataService {
 
-  dataPath = "/assets/builders.json";
+  dataPath = '/assets/builders.json';
 
   constructor(private http: HttpClient) { }
 
