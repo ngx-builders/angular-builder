@@ -1,7 +1,10 @@
-<h1 class="heading">Custom Builders</h1>
-<ng-container *ngIf="builders$ | async as builders">
+<h1 class="heading">
+  <span>Custom Builders</span>
+  <app-search-bar #sb (onChange)="onSearch($event)"></app-search-bar>
+</h1>
+<ng-container>
   <mat-accordion multi="true">
-    <mat-expansion-panel expanded="true" *ngFor="let builder of builders">
+    <mat-expansion-panel expanded="true" *ngFor="let builder of allBuilders">
       <mat-expansion-panel-header>
         <mat-panel-title>
           {{builder.name}}

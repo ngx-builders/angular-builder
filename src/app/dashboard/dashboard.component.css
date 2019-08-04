@@ -4,6 +4,13 @@ accordion-group {
 
 .heading {
   padding: 10px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading app-search-bar {
+  padding-left: 1rem;
 }
 
 .container {

@@ -1,0 +1,66 @@
+
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url('../../../../assets/icons/search-1x.png') no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 85px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+/* Demo 2 */
+#expand-search {
+	display: flex;
+}
+
+#expand-search .clear-icon{
+	cursor: pointer;
+	color: red;
+	font-weight: bold;
+	padding-left: 1rem;
+}
+
+#expand-search input[type=search] {
+	width: 40px;
+	height: 40px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#expand-search input[type=search]:hover {
+	background-color: #fff;
+}
+#expand-search input[type=search]:focus {
+	width: 230px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#expand-search input:-moz-placeholder {
+	color: transparent;
+}
+#expand-search input::-webkit-input-placeholder {
+	color: transparent;
+}
