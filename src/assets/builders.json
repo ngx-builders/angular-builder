@@ -15,9 +15,14 @@
     "repository": "https://github.com/manfredsteyer/ngx-build-plus"
   },
   {
-    "name": "ngx-gh",
-    "description": "Deploy your Angular app to GitHub pages directly from the Angular CLI! ",
+    "name": "ngx-gh(Deprecated)",
+    "description": "Deploy your Angular app to GitHub pages directly from the Angular CLI!",
     "repository": "https://github.com/mgechev/ngx-gh"
+  },
+  {
+    "name": "angular-cli-ghpages",
+    "description": "Deploy your Angular app to GitHub pages directly from the Angular CLI!<br><ul><li>ng new your-angular-project --defaults</li><li>git remote add origin https://github.com/<username>/<repositoryname>.git</li><li>ng add angular-cli-ghpages</li><li>ng deploy</li></ul>",
+    "repository": "https://github.com/angular-schule/angular-cli-ghpages"
   },
   {
     "name": "ng-deploy-azure",
@@ -38,5 +43,10 @@
     "name": "@nrwl/builders",
     "description": "<ul><li>This package is part of their Nx Modern tools.</li><li>You can add this package via npm i @nrwl/builders or yarn add -D @nrwl/builders.</li><li>Having Nx workspace is not compulsory as they seamlessly integrate with angular cli.</li></ul>",
     "repository": "https://github.com/nrwl/nx"
+  },
+  {
+    "name": "@zeit/ng-deploy",
+    "description": "Deploy your application on ZEIT Now<br><ul><li>yarn global add @angular/cli</li><li>ng add @zeit/ng-deploy</li><li>ng run hello-world:deploy</li></ul>",
+    "repository": "https://github.com/zeit/ng-deploy-now"
   }
 ]
