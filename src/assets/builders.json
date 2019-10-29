@@ -48,5 +48,10 @@
     "name": "@zeit/ng-deploy",
     "description": "Deploy your application on ZEIT Now<br><ul><li>yarn global add @angular/cli</li><li>ng add @zeit/ng-deploy</li><li>ng run hello-world:deploy</li></ul>",
     "repository": "https://github.com/zeit/ng-deploy-now"
+  },
+  {
+    "name": "ng-builder-file-remover",
+    "description": "Remove files and folders from your project. Useful for removing any assets you don't want in a production build.",
+    "repository": "https://github.com/BojanKogoj/ng-builder-file-remover"
   }
 ]
