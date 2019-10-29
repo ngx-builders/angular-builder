@@ -13,10 +13,6 @@ accordion-group {
   padding-left: 1rem;
 }
 
-.container {
-  margin: 40px !important;
-}
-
 mat-expansion-panel-header {
   background-color: #3f51b5 !important;
 }
@@ -24,6 +20,10 @@ mat-expansion-panel-header {
 .mat-expansion-panel-header.mat-expanded:focus,
 .mat-expansion-panel-header.mat-expanded:hover {
   background-color: #3f51b5;
+}
+
+div {
+  padding-top: 16px;
 }
 
 mat-panel-title {
