@@ -53,5 +53,10 @@
     "name": "ng-builder-file-remover",
     "description": "Remove files and folders from your project. Useful for removing any assets you don't want in a production build.",
     "repository": "https://github.com/BojanKogoj/ng-builder-file-remover"
+  },
+    {
+    "name": "@netlify-builder/deploy",
+    "description": "Deploy your application on Netlify with Angular CLI<br><ul><li>ng add @netlify-build/deploy</li><li>ng deploy</li></ul>.",
+    "repository": "https://github.com/ngx-builders/netlify-builder"
   }
 ]
