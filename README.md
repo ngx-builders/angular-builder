@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Adding a new builder
 
-1. Find the `buidlers.json` in `assets` folder.
+1. Find the `builders.json` in `assets` folder.
 2. Provide the data for new builder in below `json` format
 
 ```json
