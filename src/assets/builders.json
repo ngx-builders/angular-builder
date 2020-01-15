@@ -63,5 +63,10 @@
     "name": "ng-builder-google-maps",
     "description": "Angular CLI builder that adds the Google Maps API into your Angular application.",
     "repository": "https://github.com/Developer-Plexscape/ng-builder-google-maps"
-  }
+  },
+    {
+    "name": "ngx-aws-deploy",
+    "description": "Deploy Angular apps to Amazon S3 using the Angular CLI",
+    "repository": "https://github.com/Jefiozie/ngx-aws-deploy"
+  },
 ]
