@@ -68,5 +68,5 @@
     "name": "ngx-aws-deploy",
     "description": "Deploy Angular apps to Amazon S3 using the Angular CLI",
     "repository": "https://github.com/Jefiozie/ngx-aws-deploy"
-  },
+  }
 ]
