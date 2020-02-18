@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-builders"
+  "defaultProject": "angular-builders",
+  "cli": {
+    "analytics": "02413cf1-b5b8-42b1-8c01-5a81a3a99231"
+  }
 }
