@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { ReferencesRoutingModule } from './references-routing.module';
 import { ReferencesComponent } from './references.component';
+import { MatListModule } from '@angular/material/list';
 
 
 @NgModule({
-  declarations: [ReferencesComponent,],
+  declarations: [ReferencesComponent],
   imports: [
     CommonModule,
-    ReferencesRoutingModule
+    ReferencesRoutingModule,
+    MatListModule
   ]
 })
 export class ReferencesModule { }
