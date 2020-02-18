@@ -18,12 +18,12 @@
     {
       "name": "Builders Demystified v2",
       "description": "Blog on CLI builders.",
-      "link": "https://blog.angularindepth.com/angular-cli-under-the-hood-builders-demystified-v2-e73ee0f2d811"
+      "link": "https://medium.com/angular-in-depth/angular-cli-under-the-hood-builders-demystified-v2-e73ee0f2d811"
     },
     {
       "name": "Angular CLI Builders",
       "description": "Angular CLI Builders",
-      "link": "https://blog.angularindepth.com/angular-cli-builder-26f0981fb7f3"
+      "link": "https://indepth.dev/angular-cli-builders/"
     }
   ],
   "blogs": []

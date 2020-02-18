@@ -56,7 +56,7 @@
   },
   {
     "name": "@netlify-builder/deploy",
-    "description": "Deploy your application on Netlify with Angular CLI<br><ul><li>ng add @netlify-build/deploy</li><li>ng deploy</li></ul>.",
+    "description": "Deploy your application on Netlify with Angular CLI<br><ul><li>ng add @netlify-build/deploy</li><li>ng deploy</li></ul>",
     "repository": "https://github.com/ngx-builders/netlify-builder"
   },
   {

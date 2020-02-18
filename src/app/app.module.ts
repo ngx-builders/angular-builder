@@ -22,13 +22,11 @@ import { environment } from '../environments/environment';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { SearchBarComponent } from './Utils/components/search-bar/search-bar.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     MainNavComponent,
-    ReferencesComponent,
     SearchBarComponent
   ],
   imports: [
