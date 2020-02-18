@@ -5,7 +5,10 @@ import { ReferencesComponent } from './references/references.component';
 
 const routes: Routes = [
   { path: 'home', component: DashboardComponent },
-  { path: 'reference', component: ReferencesComponent },
+  {
+    path: 'reference',
+    loadChildren: () => import('./references/references.module').then(m => m.ReferencesModule)
+  },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
