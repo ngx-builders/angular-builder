@@ -37,7 +37,7 @@
     "@types/jasminewd2": "2.0.8",
     "@types/node": "12.12.27",
     "all-contributors-cli": "6.14.1",
-    "codelyzer": "5.2.1",
+    "codelyzer": "5.2.2",
     "jasmine-core": "3.4.0",
     "jasmine-spec-reporter": "4.2.1",
     "karma": "4.1.0",
