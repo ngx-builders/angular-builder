@@ -33,7 +33,7 @@
     "@angular/cli": "9.1.12",
     "@angular/compiler-cli": "9.1.12",
     "@angular/language-service": "9.1.12",
-    "@types/jasmine": "3.5.12",
+    "@types/jasmine": "3.6.2",
     "@types/jasminewd2": "2.0.8",
     "@types/node": "12.12.54",
     "all-contributors-cli": "6.17.0",
