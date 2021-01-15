@@ -73,5 +73,10 @@
     "name": "ng-process-env",
     "description": "Retrieve values from System Environment (OS) variables and update relevant <code>environment.ts</code> file.<ul><li>Install: <code>ng add ng-process-env</code> or manually <code>ng g ng-process-env:process-env</code></li><li>Collect vars: <code> ng run my-app:collect-vars </code></li></ul>",
     "repository": "https://github.com/danduh/ng-process-env"
+  },
+  {
+    "name": "ngx-electronify",
+    "description": "Serve your Angular application in the desktop using Electron",
+    "repository": "https://www.npmjs.com/package/ngx-electronify"
   }
 ]
