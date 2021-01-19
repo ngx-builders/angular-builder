@@ -77,6 +77,6 @@
   {
     "name": "ngx-electronify",
     "description": "Serve your Angular application in the desktop using Electron",
-    "repository": "https://www.npmjs.com/package/ngx-electronify"
+    "repository": "https://github.com/bampakoa/ngx-electronify"
   }
 ]
