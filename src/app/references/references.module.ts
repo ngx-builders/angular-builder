@@ -1,17 +1,17 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { NgModule } from '@angular/core';
+import { MaterialModule } from 'src/app/material/material.module';
 import { ReferencesRoutingModule } from './references-routing.module';
 import { ReferencesComponent } from './references.component';
-import { MatListModule } from '@angular/material/list';
+
 
 
 @NgModule({
   declarations: [ReferencesComponent],
   imports: [
     CommonModule,
-    ReferencesRoutingModule,
-    MatListModule
+    MaterialModule,
+    ReferencesRoutingModule
   ]
 })
 export class ReferencesModule { }
