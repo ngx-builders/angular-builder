@@ -24,7 +24,7 @@
     "@angular/platform-browser-dynamic": "11.0.9",
     "@angular/router": "11.0.9",
     "@angular/service-worker": "11.0.9",
-    "rxjs": "6.6.3",
+    "rxjs": "6.6.7",
     "tslib": "2.1.0",
     "zone.js": "0.10.3"
   },
