@@ -1,7 +1,4 @@
-<h1 class="heading">
-  <span>Custom Builders</span>
-  <app-search-bar #sb (onChange)="onSearch($event)"></app-search-bar>
-</h1>
+<app-search-bar class="hide-search-bar-md"></app-search-bar>
 <ng-container>
   <mat-accordion multi="true">
     <mat-expansion-panel expanded="true" *ngFor="let builder of allBuilders">

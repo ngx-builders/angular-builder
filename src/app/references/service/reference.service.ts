@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { IReference } from '../reference';
 
 @Injectable({
@@ -11,7 +11,7 @@ export class ReferenceService {
   constructor(private http: HttpClient) { }
 
   getReferenceData() {
-    return this.http.get<IReference[]>(this.referencePath);
+    return this.http.get<IReference>(this.referencePath);
   }
 
 }

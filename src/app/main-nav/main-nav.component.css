@@ -1,38 +1,31 @@
-.sidenav-container {
+.drawer-container {
+  height: auto !important;
+}
+
+.sidenav-content {
+  display: flex;
   height: 100%;
+
 }
 
 .sidenav {
+  padding: 20px;
   width: 200px;
-}
-
-.sidenav .mat-toolbar {
-  background: inherit;
-}
-
-.mat-toolbar.mat-primary {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-.example-icon {
-  padding: 0 14px;
-}
-
-.example-spacer {
-  flex: 1 1 auto;
-}
-.github-button, .github-button:hover{
-  color: #fff;
-  text-decoration: none;
-}
-.github-icon{
-  height: 25px;
-  margin: 0 4px 3px 0;
+  top: 64px;
 }
 
 .container {
-  margin-left: 40px !important;
-  margin-right: 40px !important;
-  margin-bottom: 40px;
+  margin: 20px !important;
+  padding: 50px 1rem;
+  width: 100%;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
 }

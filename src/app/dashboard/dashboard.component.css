@@ -28,6 +28,11 @@ div {
 
 mat-panel-title {
   color: white;
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 34px;
+  width: 100%;
 }
 
+mat-expansion-panel-header.mat-expanded {
+  height: 45px;
+}

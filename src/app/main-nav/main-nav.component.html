@@ -1,29 +1,30 @@
-<mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" mode="side" opened="true">
-    <mat-toolbar>Menu</mat-toolbar>
+<mat-toolbar color="primary" class="fixed-header">
+  <mat-toolbar-row>
+    <button mat-icon-button aria-label="menu icon"
+      (click)="drawer.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Angular Builders</span>
+    <span class="spacer"></span>
+    <app-search-bar class="hide-search-bar-sm"></app-search-bar>
+    <a href="https://github.com/santoshyadav198613/angular-builder" mat-button class="github-button">
+      <img class="github-icon" src="https://material.angular.io/assets/img/homepage/github-circle-white-transparent.svg"
+        alt="Github">
+      GitHub
+    </a>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-drawer-container class="drawer-container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side" [opened]="isOpened">
     <mat-nav-list>
       <a mat-list-item routerLink="home">Builders</a>
       <a mat-list-item routerLink="reference">References</a>
     </mat-nav-list>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
-        <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
-          *ngIf="isHandset$ | async">
-          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-        </button>
-        <span>Angular Builders</span>
-        <span class="example-spacer"></span>
-        <a href="https://github.com/santoshyadav198613/angular-builder" mat-button class="github-button">
-            <img class="github-icon"
-              src="https://material.angular.io/assets/img/homepage/github-circle-white-transparent.svg" alt="Github">
-            GitHub
-        </a>
-      </mat-toolbar-row>
-    </mat-toolbar>
+  </mat-drawer>
+
+  <div class="sidenav-content">
     <div class="container">
       <router-outlet></router-outlet>
     </div>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+  </div>
+</mat-drawer-container>
