@@ -8,8 +8,8 @@ import { Subject } from 'rxjs';
 })
 export class BuilderDataService {
 
-  private serachText = new Subject<string>();
-  filterText$ = this.serachText.asObservable();
+  private searchText = new Subject<string>();
+  filterText$ = this.searchText.asObservable();
   dataPath = '/assets/builders.json';
 
   constructor(private http: HttpClient) { }
@@ -18,7 +18,7 @@ export class BuilderDataService {
     return this.http.get<IBuilderData[]>(this.dataPath);
   }
   
-  filterText(searchText:string) {
-    this.serachText.next(searchText)
+  filterText(text:string) {
+    this.searchText.next(text)
   }
 }
