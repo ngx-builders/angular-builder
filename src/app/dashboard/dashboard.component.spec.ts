@@ -8,10 +8,18 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 
 import { DashboardComponent } from './dashboard.component';
+import { BuilderDataService } from './service/builder-data.service';
+import { of, Subject } from 'rxjs';
 
 describe('DashboardComponent', () => {
   let component: DashboardComponent;
   let fixture: ComponentFixture<DashboardComponent>;
+  let builderDataServiceStub:  Partial<BuilderDataService>;
+  let searchText = new Subject<string>();
+  builderDataServiceStub = {
+    getBuilderData: jasmine.createSpy().and.returnValue(of([])),
+    filterText$: searchText.asObservable()
+  };
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
@@ -24,7 +32,8 @@ describe('DashboardComponent', () => {
         MatGridListModule,
         MatIconModule,
         MatMenuModule,
-      ]
+      ],
+      providers: [ { provide: BuilderDataService, useValue: builderDataServiceStub } ],
     }).compileComponents();
   }));
 

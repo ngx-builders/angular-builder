@@ -1,5 +1,5 @@
 import { SearchBarComponent } from './../Utils/components/search-bar/search-bar.component';
-import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit, OnDestroy } from '@angular/core';
 import { BuilderDataService } from './service/builder-data.service';
 import { shareReplay } from 'rxjs/operators';
 import { IBuilderData } from './ibuilderdata';
@@ -17,17 +17,22 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   constructor(private dataService: BuilderDataService) {}
 
   ngOnInit(): void {
-    this.builders$.subscribe(res => (this.allBuilders = res));
+    this.getBuilderData('');
+
+    this.dataService.filterText$.subscribe(searchText=> {
+      this.getBuilderData(searchText);
+    })
   }
 
   ngAfterViewInit(): void {}
 
-  onSearch(term) {
+  private getBuilderData(searchText:string) {
     this.builders$.subscribe(res => {
       this.allBuilders = res.filter(
         builder =>
-          (builder.name + '' + builder.description).toUpperCase().indexOf(term) > -1
+          (builder.name + '' + builder.description).toUpperCase().indexOf(searchText) > -1
       );
     });
   }
+
 }
