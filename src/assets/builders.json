@@ -78,5 +78,10 @@
     "name": "ngx-electronify",
     "description": "Serve your Angular application in the desktop using Electron",
     "repository": "https://github.com/bampakoa/ngx-electronify"
+  },
+  {
+    "name": "@ngx-env/builder",
+    "description": "Easily inject environment variables into your Angular applications<br /><ol> <li> Add @ngx-env to your CLI project <br /><br /> <code>ng add @ngx-env/builder</code> <br /><br /> </li> <li> Define Environment Variables in <code></code>.env</code> <br /><br /> <code> NG_APP_ENABLE_ANALYTICS=false<br /> NG_APP_VERSION=$npm_package_version<br /> NG_APP_COMMIT=$GITHUB_SHA </code> <br /><br /> </li> <li> Use in TypeScript <br /><br /> <code> @Component({<br /> &nbsp;&nbsp;selector: \"app-footer\",<br /> })<br /> export class FooterComponent {<br /> &nbsp;&nbsp;version = process.env.NG_APP_VERSION;<br /> &nbsp;&nbsp;branch = process.env.NG_APP_BRANCH_NAME;<br /> &nbsp;&nbsp;commit = process.env.NG_APP_COMMIT;<br /> &nbsp;&nbsp;analyticsFlag = process.env.NG_APP_ENABLE_ANALYTICS;<br /> }<br /> </code> <br /> </li> <li> Run CLI commands <br /><br /> <code> npm start<br /> NG_APP_BRANCH_NAME=$GITHUB_HEAD_REF ng test<br /> NG_APP_BRANCH_NAME=`git branch --show-current` npm run build<br /> </code> </li> </ol>",
+    "repository": "https://github.com/chihab/ngx-env"
   }
 ]
